@@ -1,0 +1,52 @@
+
+header{
+	background: navy;
+	padding-bottom: 50px;
+	
+
+}
+
+.navbar{
+	background: navy;
+}
+
+#light{
+	background: navy;
+	margin-top: 100px;
+}
+
+#light a{
+	width: 150px;
+	height: 50px;
+
+}
+
+#gift{
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'DM Mono', monospace;
+	text-decoration: underline #FFFF00;
+}
+
+#link{
+	margin-top: 100px;
+	font-family: 'Balsamiq Sans', cursive;
+
+}
+
+#link h6{
+	font-size: 20px;
+	color: gray;
+}
+
+#column{
+	margin-top: 150px;
+	font-family: 'Balsamiq Sans', cursive;
+}
+
+#column h6{
+	font-size: 20px;
+	color: gray;
+}
+
+	
