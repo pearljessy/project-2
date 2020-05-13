@@ -1,7 +1,7 @@
 
-header{
+.showcase{
 	background: navy;
-	padding-bottom: 50px;
+	
 	
 
 }
@@ -10,43 +10,69 @@ header{
 	background: navy;
 }
 
-#light{
-	background: navy;
+
+.header{
+	margin-top: 250px;
+}
+
+.header a{
+	background: #FFFF00
+}
+
+
+.img{
 	margin-top: 100px;
 }
 
-#light a{
-	width: 150px;
-	height: 50px;
 
+
+#bright h3{
+	margin-top: 50px;
 }
 
-#gift{
-	text-align: center;
-	margin-top: 100px;
-	font-family: 'DM Mono', monospace;
-	text-decoration: underline #FFFF00;
-}
-
-#link{
-	margin-top: 100px;
-	font-family: 'Balsamiq Sans', cursive;
-
-}
-
-#link h6{
-	font-size: 20px;
-	color: gray;
-}
-
-#column{
+.lot{
 	margin-top: 150px;
-	font-family: 'Balsamiq Sans', cursive;
-}
-
-#column h6{
-	font-size: 20px;
 	color: gray;
 }
 
+.about{
+	margin-top: 80px;
+	color: gray;
+}
+
+
+#services{
+	background: ghostwhite;
 	
+}
+
+.whatwedo{
+	/*margin-top: 50px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in bootsrap
+
+Small (sm) devices (landscape phones, 576pxx and up)
+@media (min-width: 576px) {...}
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) {...}
+
+Large (lg) devices  (desktops, 992px and up)
+@media (min-width: 992px) {...}
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {...} 
+*/
