@@ -1,26 +1,30 @@
-
-.showcase{
-	background: navy;
-	
-	
-
+body{
+	font-family: 'Merriweather', serif;
 }
+
 
 .navbar{
 	background: navy;
+	font-family: none;
 }
 
 
 .header{
 	margin-top: 200px;
+	
 }
 
-.header a{
-	background: #FFFF00
+#light{
+	background-color: navy;
 }
 
 
-.img{
+ #light a{
+ 	background: #FFFF00
+ }
+
+
+.shift{
 	margin-top: 100px;
 }
 
@@ -28,10 +32,11 @@
 
 #bright h3{
 	margin-top: 50px;
+
 }
 
 .lot{
-	margin-top: 150px;
+	margin-top: 100px;
 	color: gray;
 }
 
@@ -46,61 +51,36 @@
 	
 }
 
-.whatwedo{
-	/*margin-top: 50px;*/
+.line{
+	height:2px;
+	border-width:0px;
+	color:#FFFF00;
+	background-color:#FFFF00;
+	width: 10%
+}
+
+#action{
+	background-color: navy;
 }
 
 
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
+footer{
+	background-color: #2b2d2f;
+}
+
+.footer-header{
+	font-family: none;
 }
 
 
-.top-link {
-  transition: all .25s ease-in-out;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  display: inline-flex;
-   
- cursor: pointer;
- align-items: center;
- justify-content: center;
- margin: 0 3em 3em 0;
- border-radius: 50%;
- padding: .25em;
- width: 80px;
- height: 80px;
- background-color: navy;
-}
-
-.show {
-  visibility: visible;
-  opacity: 1;
-}
- 
-.hide {
-  visibility: hidden;
-  opacity: 0;
-}
 
 
-svg {
- fill: #000;
- width: 24px;
- height: 12px;
-}
- 
-&:hover {
- background-color: #E8E8E8;
- 
-    svg {
-     fill: #000000;
-    }
+@media screen and (min-width: 576px){
+  .row-reverse{
+  	image-rendering: 2
+  }
 
+}
 
 
 
